@@ -70,14 +70,6 @@ header .logo
   mix-blend-mode: overlay;
 }
 
-.text p
-{
-  font-size: 1.1em;
-  color: #fff;
-  margin: 20px 0;
-  font-weight: 400;
-  max-width: 700px;
-}
 .text a
 {
   display: inline-block;
@@ -132,18 +124,12 @@ a.btn {
     position: absolute;
     top: 0;
     left: 0;
-    width: 85%;
-    height: 85%;
+    width: 900px;
+    height: 680px;
     object-fit: cover;
     opacity: 0.8;
   }
   .logo {
-    margin-top: 5vh;
-    margin-left: 5vh;
-  }
-  .btn {
-  width: 85%;
-  bottom: -5px;
-  left: 110px;
+    display: none;
   }
 }
